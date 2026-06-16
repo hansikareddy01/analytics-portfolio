@@ -1,4 +1,4 @@
-# analytics-portfolio
+
 # Lost and Found Management System
 
 ## Overview
@@ -11,12 +11,9 @@ The Lost and Found Management System is a web application designed to help users
 - **Lost & Found Item Management:** Users can report items they have lost or found, view a list of items, and filter them based on categories or search terms.
 
 ## Technologies Used
-- **Backend:** Flask, Flask-Bcrypt (for password hashing), Flask-Login (for user sessions), Flask-Mail (for sending OTP emails).
+- **Backend:** Flask
 - **Database:** MySQL (used via SQLAlchemy ORM).
 - **Frontend:** HTML, CSS, JavaScript (for dynamic interactions).
-- **Authentication:** Secure email-based OTP verification and password reset mechanism.
-- **Security:** Bcrypt for password hashing, Flask-Login for session management, and secure file uploads.
-
 ## Future Enhancements
 - **Item Matching:** Automatically match found items with reported lost items.
 - **User Notifications:** Notify users when their item status changes.
